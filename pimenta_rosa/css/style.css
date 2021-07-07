@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+.header{
+    /*display: inline-block;*/
+    overflow: hidden;
+    /*margin: 100px;*/
+    width: 100%;
+    background: rgb(224, 52, 52);
+    font-size: 15pt;
+    border-radius: 100px;
+    text-align: center;
+    
+    position: fixed;
+    top: 0;
+    margin-top: .5%;
+
+}
+
+.menu{
+    overflow: hidden;
+    /*display: inline-block;*/
+    list-style: none;
+    margin: 20px;
+    margin-left: 150px;
+    padding: 0px;
+    float:none;
+}
+
+li{
+    display:inline-block;
+    color: white;
+    margin-right: 80px;
+
+}
+
+li:hover{
+    background:black;
+    border-radius: 200px;
+}
+
+.imgmain{
+    
+    border-radius: 200px;
+    border-bottom: black;
+    border-left: black;
+    border-right: black;
+    border-top: black;
+}
+
+
+
+h1{
+    font-size: 24pt;
+    text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color:white;
+}
+
+h3{
+    text-align: center;
+    color:white;
+}
+
+
+p{
+    color: white;
+}
+
+hr{
+    background-color: rgb(224, 52, 52);
+    color: rgb(224, 52, 52);
+    width: 70%;
+    text-align: center;
+
+}
+
+.fotos{
+    
+    text-align: center;
+    margin-block-end: 50px ;
+    
+}
+
+.image2{
+    width: 250px;
+    height: auto;
+    box-shadow: 1px 1px 1px 1px rgb(224,52,52);
+    border-radius: 50px;
+    margin-right: 30px;
+
+    transition: transform .5s;
+}
+.image2:hover{
+    transform: scale(1.7);
+   
+}
+
+.image3{
+
+    width: 250px;
+    height: auto;
+    box-shadow: 1px 1px 1px 1px rgb(224,52,52);
+    border-radius: 50px;
+    margin-right: 30px;
+
+    transition: transform .5s;
+}
+.image3:hover{
+    transform: scale(1.7);
+}
+
+
+
+.image4{
+
+    width: 230px;
+    height: auto;
+    box-shadow: 1px 1px 1px 1px rgb(224,52,52);
+    border-radius: 50px;
+    margin-right: 30px;
+
+    transition: transform .5s;
+}
+.image4:hover{
+    transform: scale(1.7);
+}
+
+
+.image5{
+
+    width: 300px;
+    height: auto;
+    box-shadow: 1px 1px 1px 1px rgb(224,52,52);
+    border-radius: 50px;
+    margin-right: 30px;
+
+    transition: transform .5s;
+}
+.image5:hover{
+    transform: scale(1.7);
+}
+
+
+section{
+    padding: 40px;
+    text-align: center;
+    /*display: inline-block;*/
+    
+}
+
+p#end{
+    font-size: 18pt;
+    overflow: hidden;
+    display: inline-block;
+    max-width: 30%;
+    text-align: center;
+    margin-bottom: 230px;
+    margin-right: 40px;
+}
+
+
+
+.local{
+    padding: 20px;
+}
+
+#motoboy{
+
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-left: 300px;
+
+    transition: transform .5s;
+}
+#motoboy:hover{
+    transform: scale(1.6);
+}
+
+.local h2, h3{
+    font-size: 18pt;
+    overflow: hidden;
+    display: inline-block;
+    max-width: 40%;
+    margin-top: 100px;
+    margin-bottom: 230px;
+    /*margin-right: 150px;*/
+}
+
+
+
+
+
+.contato{
+    font-size: 20pt;
+    right: 80px;
+    text-align: right;
+    margin-right: 120px;
+    margin-top: 140px;
+}
+.logowhats{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 80px;
+    right: 40px;
+    text-align: center;
+    z-index: 1000;
+
+    
+    transition: transform .5s;
+}
+
+.logowhats:hover{
+    transform: scale(1.7);
+}
+
+
+footer{
+    color: white;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(224,52,52);
+    text-align: center;  
+   }
+footer, p{
+    margin-top: auto;
+}
+
+
+@media screen and (max-width: 500px) {
+    body {
+        float:center;
+        text-align: center;
+    }    
+    .local{
+        text-align: center;
+    }
+    .local, img{
+        text-align: center;
+    }
+}
